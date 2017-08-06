@@ -1,0 +1,60 @@
+peerId: 3 running with below uri
+Object <__main__.Peer object at 0x0000024CAD783080>:
+    uri = PYRO:peer@localhost:44103
+Pyro daemon running.
+3 got a connect request from 4
+3 got a connect request from 0
+PeerId: 3 is a network neighbor to: {4: 'localhost:44104', 2: 'localhost:44102', 0: 'localhost:44100'}
+
+-- begin round 1 --
+PeerId: 3 is at (5, 1) and physical neighbor to:
+pigID:3 is at (5, 1) and attack is at (6, 7) in time 6.0. message delay 3.0 and route:[8, 5, 4]
+
+-- begin round 2 --
+PeerId: 3 is at (9, 3) and physical neighbor to:
+pigID:3 is at (9, 3) and attack is at (8, 6) in time 4.0. message delay 2.0 and route:[1, 2]
+
+-- begin round 3 --
+PeerId: 3 is at (1, 0) and physical neighbor to:
+PeerId: 2 at (1, 1)
+PeerId: 4 at (2, 0)
+pigID:3 is at (1, 0) and attack is at (1, 0) in time 0.5. message delay 3.0 and route:[8, 5, 4]
+
+-- begin round 4 --
+PeerId: 3 is at (6, 9) and physical neighbor to:
+PeerId: 2 at (6, 8)
+
+-- begin round 5 --
+PeerId: 3 is at (5, 6) and physical neighbor to:
+PeerId: 6 at (5, 5)
+pigID:3 is at (5, 6) and attack is at (9, 3) in time 0.8. message delay 0.0 and route:[]
+got response of peer 3, his status False 
+got response of peer 2, his status False 
+got response of peer 4, his status False 
+got response of peer 0, his status False 
+got response of peer 1, his status False 
+got response of peer 5, his status False 
+got response of peer 6, his status False 
+got response of peer 8, his status False 
+got response of peer 7, his status True 
+{3: False, 2: False, 0: False, 4: False, 1: False, 5: False, 8: False, 6: False, 7: True}
+
+-- begin round 6 --
+PeerId: 3 is at (9, 3) and physical neighbor to:
+pigID:3 is at (9, 3) and attack is at (9, 3) in time 2.5. message delay 1.0 and route:[0]
+pigID:3 escaped to (9, 4)
+
+-- begin round 7 --
+PeerId: 3 is at (5, 6) and physical neighbor to:
+PeerId: 6 at (5, 5)
+pigID:3 is at (5, 6) and attack is at (2, 7) in time 1.0. message delay 0.0 and route:[]
+got response of peer 3, his status False 
+got response of peer 2, his status False 
+got response of peer 0, his status False 
+got response of peer 4, his status False 
+got response of peer 1, his status False 
+got response of peer 5, his status False 
+got response of peer 6, his status False 
+got response of peer 8, his status False 
+got response of peer 7, his status False 
+{3: False, 2: False, 0: False, 4: False, 1: False, 5: False, 6: False, 8: False, 7: False}

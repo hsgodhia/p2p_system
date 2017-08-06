@@ -1,0 +1,51 @@
+peerId: 0 running with below uri
+Object <__main__.Peer object at 0x000001E7836F6FD0>:
+    uri = PYRO:peer@localhost:44100
+Pyro daemon running.
+0 got a connect request from 1
+PeerId: 0 is a network neighbor to: {1: 'localhost:44101', 3: 'localhost:44103'}
+
+-- begin round 1 --
+PeerId: 0 is at (7, 7) and physical neighbor to:
+PeerId: 1 at (6, 7)
+PeerId: 4 at (7, 8)
+pigID:0 is at (7, 7) and attack is at (6, 7) in time 6.0. message delay 4.0 and route:[8, 5, 4, 3]
+Take shelter! 1 is going to be attacked
+Moved! to (7, 6)
+
+-- begin round 2 --
+PeerId: 0 is at (1, 1) and physical neighbor to:
+pigID:0 is at (1, 1) and attack is at (8, 6) in time 4.0. message delay 1.0 and route:[1]
+
+-- begin round 3 --
+PeerId: 0 is at (0, 1) and physical neighbor to:
+PeerId: 1 at (0, 2)
+PeerId: 2 at (1, 1)
+pigID:0 is at (0, 1) and attack is at (1, 0) in time 0.5. message delay 4.0 and route:[8, 5, 4, 3]
+
+-- begin round 4 --
+PeerId: 0 is at (1, 0) and physical neighbor to:
+PeerId: 1 at (1, 1)
+
+-- begin round 5 --
+PeerId: 0 is at (1, 1) and physical neighbor to:
+pigID:0 is at (1, 1) and attack is at (9, 3) in time 0.8. message delay 1.0 and route:[3]
+
+-- begin round 6 --
+PeerId: 0 is at (5, 6) and physical neighbor to:
+PeerId: 6 at (5, 5)
+pigID:0 is at (5, 6) and attack is at (9, 3) in time 2.5. message delay 0.0 and route:[]
+got response of peer 0, his status False 
+got response of peer 1, his status False 
+got response of peer 3, his status False 
+got response of peer 2, his status False 
+got response of peer 4, his status False 
+got response of peer 5, his status False 
+got response of peer 6, his status False 
+got response of peer 8, his status False 
+got response of peer 7, his status False 
+{0: False, 1: False, 3: False, 2: False, 4: False, 5: False, 6: False, 8: False, 7: False}
+
+-- begin round 7 --
+PeerId: 0 is at (1, 1) and physical neighbor to:
+pigID:0 is at (1, 1) and attack is at (2, 7) in time 1.0. message delay 1.0 and route:[3]

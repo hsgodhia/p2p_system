@@ -1,0 +1,64 @@
+peerId: 1 running with below uri
+Object <__main__.Peer object at 0x000002B7F0C36FD0>:
+    uri = PYRO:peer@localhost:44101
+Pyro daemon running.
+1 got a connect request from 2
+PeerId: 1 is a network neighbor to: {2: 'localhost:44102', 0: 'localhost:44100'}
+
+-- begin round 1 --
+PeerId: 1 is at (6, 7) and physical neighbor to:
+PeerId: 0 at (7, 7)
+PeerId: 2 at (6, 6)
+PeerId: 5 at (5, 7)
+PeerId: 6 at (6, 8)
+pigID:1 is at (6, 7) and attack is at (6, 7) in time 6.0. message delay 5.0 and route:[8, 5, 4, 3, 0]
+
+-- begin round 2 --
+PeerId: 1 is at (2, 3) and physical neighbor to:
+PeerId: 4 at (1, 3)
+pigID:1 is at (2, 3) and attack is at (8, 6) in time 4.0. message delay 0.0 and route:[]
+got response of peer 1, his status False 
+got response of peer 2, his status False 
+got response of peer 0, his status False 
+got response of peer 3, his status False 
+got response of peer 4, his status False 
+got response of peer 5, his status True 
+got response of peer 6, his status False 
+got response of peer 8, his status False 
+got response of peer 7, his status True 
+{1: False, 2: False, 0: False, 3: False, 4: False, 5: True, 6: False, 8: False, 7: True}
+
+-- begin round 3 --
+PeerId: 1 is at (0, 2) and physical neighbor to:
+PeerId: 0 at (0, 1)
+pigID:1 is at (0, 2) and attack is at (1, 0) in time 0.5. message delay 5.0 and route:[8, 5, 4, 3, 2]
+
+-- begin round 4 --
+PeerId: 1 is at (1, 1) and physical neighbor to:
+PeerId: 0 at (1, 0)
+pigID:1 is at (1, 1) and attack is at (1, 8) in time 5.0. message delay 0.0 and route:[]
+got response of peer 1, his status False 
+got response of peer 0, his status False 
+got response of peer 2, his status False 
+got response of peer 3, his status False 
+got response of peer 4, his status False 
+got response of peer 5, his status False 
+got response of peer 6, his status False 
+got response of peer 8, his status True 
+got response of peer 7, his status False 
+{1: False, 0: False, 2: False, 3: False, 4: False, 5: False, 6: False, 8: True, 7: False}
+
+-- begin round 5 --
+PeerId: 1 is at (2, 3) and physical neighbor to:
+PeerId: 5 at (1, 3)
+pigID:1 is at (2, 3) and attack is at (9, 3) in time 0.8. message delay 2.0 and route:[3, 0]
+
+-- begin round 6 --
+PeerId: 1 is at (2, 3) and physical neighbor to:
+PeerId: 5 at (1, 3)
+pigID:1 is at (2, 3) and attack is at (9, 3) in time 2.5. message delay 1.0 and route:[0]
+
+-- begin round 7 --
+PeerId: 1 is at (2, 3) and physical neighbor to:
+PeerId: 5 at (1, 3)
+pigID:1 is at (2, 3) and attack is at (2, 7) in time 1.0. message delay 2.0 and route:[3, 2]

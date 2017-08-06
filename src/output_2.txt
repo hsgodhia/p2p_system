@@ -1,0 +1,43 @@
+peerId: 2 running with below uri
+Object <__main__.Peer object at 0x0000022AC53A10B8>:
+    uri = PYRO:peer@localhost:44102
+Pyro daemon running.
+2 got a connect request from 3
+PeerId: 2 is a network neighbor to: {3: 'localhost:44103', 1: 'localhost:44101'}
+
+-- begin round 1 --
+PeerId: 2 is at (6, 6) and physical neighbor to:
+PeerId: 1 at (6, 7)
+pigID:2 is at (6, 6) and attack is at (6, 7) in time 6.0. message delay 4.0 and route:[8, 5, 4, 3]
+Take shelter! 1 is going to be attacked
+
+-- begin round 2 --
+PeerId: 2 is at (1, 4) and physical neighbor to:
+PeerId: 4 at (1, 3)
+pigID:2 is at (1, 4) and attack is at (8, 6) in time 4.0. message delay 1.0 and route:[1]
+
+-- begin round 3 --
+PeerId: 2 is at (1, 1) and physical neighbor to:
+PeerId: 3 at (1, 0)
+PeerId: 0 at (0, 1)
+pigID:2 is at (1, 1) and attack is at (1, 0) in time 0.5. message delay 4.0 and route:[8, 5, 4, 3]
+Take shelter! 3 is going to be attacked
+
+-- begin round 4 --
+PeerId: 2 is at (6, 8) and physical neighbor to:
+PeerId: 3 at (6, 9)
+
+-- begin round 5 --
+PeerId: 2 is at (1, 4) and physical neighbor to:
+PeerId: 5 at (1, 3)
+pigID:2 is at (1, 4) and attack is at (9, 3) in time 0.8. message delay 1.0 and route:[3]
+
+-- begin round 6 --
+PeerId: 2 is at (1, 4) and physical neighbor to:
+PeerId: 5 at (1, 3)
+pigID:2 is at (1, 4) and attack is at (9, 3) in time 2.5. message delay 2.0 and route:[0, 1]
+
+-- begin round 7 --
+PeerId: 2 is at (1, 4) and physical neighbor to:
+PeerId: 5 at (1, 3)
+pigID:2 is at (1, 4) and attack is at (2, 7) in time 1.0. message delay 1.0 and route:[3]

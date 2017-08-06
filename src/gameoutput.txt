@@ -1,0 +1,65 @@
+Enter playground/grid length(L): 10
+number of pillars: 14
+game rouds begin:
+Enter 'y' to quit game, 'n' to continue: n
+bird luanch info: (1,1) (6,7) 6000 5
+round description: bird hit pig, take shelter message reach pigs, the pig in more danger moves to a safe location!
+this is round 1
+You hit pigID:1!
+It's rolling over to (7, 7)
+hitstatus:{8: False, 7: False, 5: False, 4: False, 6: False, 3: False, 2: False, 0: False, 1: True}
+1 hits! this round.
+
+Enter 'y' to quit game, 'n' to continue: n
+bird luanch info: (2,3) (8,6) 4000 10
+round description: bird direct hit to pig, take shelter doesn't reach in time and neighbor dies from roll over hit
+this is round 2
+You hit pigID:7!
+It's rolling over to (7, 6)
+hitstatus:{1: False, 2: False, 0: False, 3: False, 4: False, 5: True, 8: False, 6: False, 7: True}
+2 hits! this round.
+
+Enter 'y' to quit game, 'n' to continue: n
+bird luanch info: (1,8) (0,0) 500 3
+round description: bird direct hit to pillar, which topples onto pig, which rolls over to its neighbor
+this is round 3
+You hit a pillar! It's falling from (0, 0) to (0, 1)
+You hit pigID:0!
+It's rolling over to (1, 1)
+hitstatus:{8: False, 5: False, 7: False, 6: False, 4: False, 3: False, 0: True, 2: True, 1: False}
+2 hits! this round.
+
+Enter 'y' to quit game, 'n' to continue: n
+bird luanch info: (1,1) (1,8) 5000 0
+round description: lot of time to escape but 0 hopcount, bird approaching message doesn't reach, pig dies by direct hit
+this is round 4
+You hit pigID:8!
+It's rolling over to (2, 8)
+hitstatus:{1: False, 2: False, 0: False, 3: False, 4: False, 5: False, 6: False, 8: True, 7: False}
+1 hits! this round.
+
+Enter 'y' to quit game, 'n' to continue: n
+bird luanch info: (6,6) (9,3) 800 8
+round description: brid direct hit to pig, although sufficient hopcount bird speed too fast to escape (indicated by a smaller time to impact)
+this is round 5
+You hit pigID:7!
+It's rolling over to (9, 4)
+hitstatus:{3: False, 4: False, 0: False, 2: False, 5: False, 1: False, 6: False, 8: False, 7: True}
+1 hits! this round.
+
+Enter 'y' to quit game, 'n' to continue: n
+bird luanch info: (6,6) (9,3) 2500 4
+round description: bird attacks pig, pig escapes in time
+this is round 6
+hitstatus:{0: False, 1: False, 3: False, 2: False, 4: False, 5: False, 8: False, 6: False, 7: False}
+0 hits! this round.
+
+Enter 'y' to quit game, 'n' to continue: n
+bird luanch info: (6,6) (2,7) 1000 8
+round description: bird hits empty space, bird launch wasted
+this is round 7
+hitstatus:{3: False, 4: False, 2: False, 0: False, 5: False, 1: False, 6: False, 8: False, 7: False}
+0 hits! this round.
+
+Enter 'y' to quit game, 'n' to continue:
+Z:\UMass\DOS\code>

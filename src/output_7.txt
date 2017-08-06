@@ -1,0 +1,35 @@
+peerId: 7 running with below uri
+Object <__main__.Peer object at 0x0000028443251128>:
+    uri = PYRO:peer@localhost:44107
+Pyro daemon running.
+7 got a connect request from 8
+PeerId: 7 is a network neighbor to: {8: 'localhost:44108', 6: 'localhost:44106'}
+
+-- begin round 1 --
+PeerId: 7 is at (9, 3) and physical neighbor to:
+pigID:7 is at (9, 3) and attack is at (6, 7) in time 6.0. message delay 1.0 and route:[8]
+
+-- begin round 2 --
+PeerId: 7 is at (8, 6) and physical neighbor to:
+PeerId: 5 at (7, 6)
+pigID:7 is at (8, 6) and attack is at (8, 6) in time 4.0. message delay 6.0 and route:[1, 2, 3, 4, 5, 6]
+
+-- begin round 3 --
+PeerId: 7 is at (1, 7) and physical neighbor to:
+PeerId: 8 at (1, 8)
+pigID:7 is at (1, 7) and attack is at (1, 0) in time 0.5. message delay 1.0 and route:[8]
+
+-- begin round 4 --
+PeerId: 7 is at (3, 7) and physical neighbor to:
+PeerId: 6 at (3, 8)
+
+-- begin round 5 --
+PeerId: 7 is at (9, 3) and physical neighbor to:
+pigID:7 is at (9, 3) and attack is at (9, 3) in time 0.8. message delay 4.0 and route:[3, 4, 5, 8]
+
+-- begin round 6 --
+PeerId: 7 is at (1, 1) and physical neighbor to:
+
+-- begin round 7 --
+PeerId: 7 is at (9, 3) and physical neighbor to:
+pigID:7 is at (9, 3) and attack is at (2, 7) in time 1.0. message delay 4.0 and route:[3, 4, 5, 6]
